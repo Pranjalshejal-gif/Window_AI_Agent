@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'windows-node' } // Ensure it runs on a Windows agent
+    agent { label 'TehPC' } // Ensure it runs on a Windows agent
 
     environment {
         GIT_REPO = 'https://github.com/Pranjalshejal-gif/Window_AI_Agent.git'
